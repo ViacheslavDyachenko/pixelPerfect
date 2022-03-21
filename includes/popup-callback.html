@@ -1,0 +1,26 @@
+
+<button class="modal-win-feedback__exit popup__close js-popup-close"><img src="images/exit-btn.svg" alt="X"></button>
+<div class="modal-win-feedback-block popup__loaded js-popup-loaded">
+  <form class="modal-win-feedback__form form form-callback">
+    <h1 class="modal-win-feedback__title">Обратный звонок</h1>
+    <p class="modal-win-feedback__text">Заполните форму, и наши специалисты свяжутся с вами в ближайшее время</p>
+    <label class="input-block label">
+      <label class="label-text">Имя *</label>
+      <input class="js-validation" type="text" id="name" placeholder="Хантимир..." data-rules="name" required>
+    </label>
+    <label class="input-block label js-inputmask-phone">
+      <label class="label-text">Телефон *</label>
+      <input class="js-validation" type="text" id="phone" placeholder="+7" data-rules="phone" required>
+    </label>
+    <label class="checkbox">
+      <input class="focus" type="checkbox" hidden required><span class="checkbox__fake-input"></span><span class="label-text checkbox__text" for="pd">Я согласен на обработку персональных данных</span>
+    </label>
+    <input class="button--red modal-win-feedback__btn focus" type="submit" value="Отправить">
+  </form>
+  <div class="modal-win-feedback-block form__result form__success hidden">
+    <button class="modal-win-feedback__exit popup__close js-popup-close"><img src="images/exit-btn.svg" alt="X"></button>
+    <h1 class="modal-win-feedback__title">Спасибо за обращение</h1>
+    <p class="modal-win-feedback__text">Ваше сообщение успешно отправлено.</p>
+    <button class="button--tarnsporant js-popup-close">Закрыть</button>
+  </div>
+</div>

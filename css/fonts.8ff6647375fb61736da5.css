@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Interface Corp;
+  font-weight: 200;
+  font-style: normal;
+  src: url("../fonts/hinted-InterFaceTrial-Thin.woff2") format("woff2"), url("../fonts/hinted-InterFaceTrial-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: Interface Corp;
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/hinted-InterFaceTrial-Light.woff2") format("woff2"), url("../fonts/hinted-InterFaceTrial-Light.woff") format("woff");
+}
+@font-face {
+  font-family: Interface Corp;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/hinted-InterFaceTrial-Regular.woff2") format("woff2"), url("../fonts/hinted-InterFaceTrial-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: Engravers Gothic;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/subset-EngraversGothicBT.woff2") format("woff2"), url("../fonts/subset-EngraversGothicBT.woff") format("woff");
+}
+@font-face {
+  font-family: Engravers Gothic;
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/subset-EngraversGothicBold.woff2") format("woff2"), url("../fonts/subset-EngraversGothicBold.woff") format("woff");
+}
+

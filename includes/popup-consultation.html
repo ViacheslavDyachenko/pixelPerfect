@@ -1,0 +1,30 @@
+
+<button class="modal-win-feedback__exit popup__close js-popup-close"><img src="images/exit-btn.svg" alt="X"></button>
+<div class="modal-win-feedback-block popup__loaded js-popup-loaded">
+  <form class="modal-win-feedback__form form form-consultation">
+    <h1 class="modal-win-feedback__title">консультация</h1>
+    <p class="modal-win-feedback__text">Заполните форму, и наши специалисты свяжутся с вами в ближайшее время</p>
+    <label class="input-block label"><span class="label-text">Имя *</span>
+      <input class="js-validation" type="text" id="name" placeholder="Хантимир..." data-rules="name" required><span class="text-error"></span>
+    </label>
+    <label class="input-block label js-inputmask-phone"><span class="label-text">Компания</span>
+      <input><span class="text-error"></span>
+    </label>
+    <label class="input-block label js-inputmask-phone"><span class="label-text">Email *</span>
+      <input class="js-validation" type="text" id="phone" data-rules="email" required><span class="text-error"></span>
+    </label>
+    <label class="input-block label js-inputmask-phone"><span class="label-text">Телефон *</span>
+      <input class="js-validation" type="text" id="phone" placeholder="+7" data-rules="phone" required><span class="text-error"></span>
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" hidden required><span class="checkbox__fake-input"></span><span class="label-text checkbox__text" for="pd">Я согласен на обработку персональных данных</span>
+    </label>
+    <input class="button--red modal-win-feedback__btn" type="submit" value="Отправить">
+  </form>
+  <div class="modal-win-feedback-block form__result form__success hidden">
+    <button class="modal-win-feedback__exit popup__close js-popup-close"><img src="images/exit-btn.svg" alt="X"></button>
+    <h1 class="modal-win-feedback__title">Спасибо за обращение</h1>
+    <p class="modal-win-feedback__text">Ваше сообщение успешно отправлено.</p>
+    <button class="button--tarnsporant js-popup-close">Закрыть</button>
+  </div>
+</div>
